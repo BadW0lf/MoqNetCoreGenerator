@@ -68,4 +68,4 @@ public class FooServiceImpl: IFooService
 * Produce output as method in test-class as templated `Moq.Setup` call sequence (input params? field assign?)
 
 ## dotnet-cli tool
-`dotnet <tool> class=FooServiceImpl method=DeleteAsync <output_file_path>`
+`dotnet <tool> -class FooServiceImpl -method DeleteAsync -o <output_file_path>`
